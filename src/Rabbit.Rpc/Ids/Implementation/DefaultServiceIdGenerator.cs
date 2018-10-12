@@ -36,7 +36,7 @@ namespace Rabbit.Rpc.Ids.Implementation
             var parameters = method.GetParameters();
             if (parameters.Any())
             {
-                id += "_" + string.Join("_", parameters.Select(i => i.Name));
+                id += ":" + string.Join(":", parameters.Select(i => i.Name));
             }
             if (_logger.IsEnabled(LogLevel.Debug))
                 _logger.LogDebug($"为方法：{method}生成服务Id：{id}。");
