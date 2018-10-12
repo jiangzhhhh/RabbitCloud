@@ -30,7 +30,7 @@ namespace Echo.Client
             var serviceProvider = serviceCollection.BuildServiceProvider();
 
             serviceProvider.GetRequiredService<ILoggerFactory>()
-                .AddConsole((c, l) => (int)l >= 3);
+                .AddConsole((c, l) => (int)l >= 0);
 
             var serviceProxyGenerater = serviceProvider.GetRequiredService<IServiceProxyGenerater>();
             var serviceProxyFactory = serviceProvider.GetRequiredService<IServiceProxyFactory>();
