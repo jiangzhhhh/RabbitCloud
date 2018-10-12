@@ -34,7 +34,7 @@ namespace Echo.Server
                 .AddLogging()
                 .AddRpcCore()
                 .AddServiceRuntime()
-                .UseSharedFileRouteManager("d:\\routes.txt")
+                .UseSharedFileRouteManager("/Users/jiangzh/RabbitCloud/routes.txt")
                 .UseDotNettyTransport();
             serviceCollection.AddTransient<IUserService, UserService>();
 

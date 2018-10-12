@@ -25,33 +25,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCoreApp", "NetCoreApp", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net", "Net", "{5BF47E16-B6D0-4D9C-A576-F91109C0B1F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Rpc", "src\Rabbit.Rpc\Rabbit.Rpc.csproj", "{81911EDF-5E21-4AC8-882A-7219696B9415}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Rpc", "src\Rabbit.Rpc\Rabbit.Rpc.csproj", "{81911EDF-5E21-4AC8-882A-7219696B9415}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Rpc.ProxyGenerator", "src\Rabbit.Rpc.ProxyGenerator\Rabbit.Rpc.ProxyGenerator.csproj", "{5105CB2C-5BFA-4106-84E9-F1101323C560}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Rpc.ProxyGenerator", "src\Rabbit.Rpc.ProxyGenerator\Rabbit.Rpc.ProxyGenerator.csproj", "{5105CB2C-5BFA-4106-84E9-F1101323C560}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Transport.DotNetty", "src\extensions\transports\Rabbit.Transport.DotNetty\Rabbit.Transport.DotNetty.csproj", "{D906803F-F09D-436E-9A95-37DB9AAC1F13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Transport.DotNetty", "src\extensions\transports\Rabbit.Transport.DotNetty\Rabbit.Transport.DotNetty.csproj", "{D906803F-F09D-436E-9A95-37DB9AAC1F13}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Echo.Common", "src\examples\Echo.Common\Echo.Common.csproj", "{C4C4E466-AA51-4514-B0C0-DF1D172DA6E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echo.Common", "src\examples\Echo.Common\Echo.Common.csproj", "{C4C4E466-AA51-4514-B0C0-DF1D172DA6E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Echo.Client", "src\examples\Echo.Client\Echo.Client.csproj", "{DE8052E6-7CDF-48A0-B06D-5E645A3581AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echo.Client", "src\examples\Echo.Client\Echo.Client.csproj", "{DE8052E6-7CDF-48A0-B06D-5E645A3581AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Echo.Server", "src\examples\Echo.Server\Echo.Server.csproj", "{E5D680F5-D85F-4BF0-B7A9-B3F7D5CECB46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Echo.Server", "src\examples\Echo.Server\Echo.Server.csproj", "{E5D680F5-D85F-4BF0-B7A9-B3F7D5CECB46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Rpc.Codec.ProtoBuffer", "src\extensions\codecs\Rabbit.Rpc.Codec.ProtoBuffer\Rabbit.Rpc.Codec.ProtoBuffer.csproj", "{1467CDFA-20E4-4510-9D6B-FD2425ADD51B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Rpc.Codec.ProtoBuffer", "src\extensions\codecs\Rabbit.Rpc.Codec.ProtoBuffer\Rabbit.Rpc.Codec.ProtoBuffer.csproj", "{1467CDFA-20E4-4510-9D6B-FD2425ADD51B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Rpc.Coordinate.Zookeeper", "src\extensions\coordinates\Rabbit.Rpc.Coordinate.Zookeeper\Rabbit.Rpc.Coordinate.Zookeeper.csproj", "{A7126F11-F0C3-4AE0-A62D-8BD9E1F3399F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Rpc.Coordinate.Zookeeper", "src\extensions\coordinates\Rabbit.Rpc.Coordinate.Zookeeper\Rabbit.Rpc.Coordinate.Zookeeper.csproj", "{A7126F11-F0C3-4AE0-A62D-8BD9E1F3399F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Rpc.ClientGenerator", "src\tools\Rabbit.Rpc.ClientGenerator\Rabbit.Rpc.ClientGenerator.csproj", "{DD3E4F3A-DCD2-480C-B9F0-954AE53A37EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Rpc.ClientGenerator", "src\tools\Rabbit.Rpc.ClientGenerator\Rabbit.Rpc.ClientGenerator.csproj", "{DD3E4F3A-DCD2-480C-B9F0-954AE53A37EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit.Rpc.Tests", "src\tests\Rabbit.Rpc.Tests\Rabbit.Rpc.Tests.csproj", "{0AD2A7DC-819D-4F74-BB61-3A973F5E4E01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rabbit.Rpc.Tests", "src\tests\Rabbit.Rpc.Tests\Rabbit.Rpc.Tests.csproj", "{0AD2A7DC-819D-4F74-BB61-3A973F5E4E01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Performances.NetCoreApp.Server", "src\examples\performances\Performances.NetCoreApp.Server\Performances.NetCoreApp.Server.csproj", "{BF33777D-E3DC-4296-A73D-9716A81B61A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Performances.NetCoreApp.Server", "src\examples\performances\Performances.NetCoreApp.Server\Performances.NetCoreApp.Server.csproj", "{BF33777D-E3DC-4296-A73D-9716A81B61A4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Performances.NetCoreApp.Client", "src\examples\performances\Performances.NetCoreApp.Client\Performances.NetCoreApp.Client.csproj", "{0657FBBF-0E18-4451-AB4E-6DCB6156F2BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Performances.NetCoreApp.Client", "src\examples\performances\Performances.NetCoreApp.Client\Performances.NetCoreApp.Client.csproj", "{0657FBBF-0E18-4451-AB4E-6DCB6156F2BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Performances.Net.Server", "src\examples\performances\Performances.Net.Server\Performances.Net.Server.csproj", "{C5D5EC50-2C75-437E-A019-672442F89362}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Performances.Net.Server", "src\examples\performances\Performances.Net.Server\Performances.Net.Server.csproj", "{C5D5EC50-2C75-437E-A019-672442F89362}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Performances.Net.Client", "src\examples\performances\Performances.Net.Client\Performances.Net.Client.csproj", "{9F43167B-C87A-4B94-8A0F-CAE853B89619}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Performances.Net.Client", "src\examples\performances\Performances.Net.Client\Performances.Net.Client.csproj", "{9F43167B-C87A-4B94-8A0F-CAE853B89619}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

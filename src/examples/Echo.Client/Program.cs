@@ -24,7 +24,7 @@ namespace Echo.Client
             serviceCollection
                 .AddLogging()
                 .AddClient()
-                .UseSharedFileRouteManager(@"d:\routes.txt")
+                .UseSharedFileRouteManager("/Users/jiangzh/RabbitCloud/routes.txt")
                 .UseDotNettyTransport();
 
             var serviceProvider = serviceCollection.BuildServiceProvider();
